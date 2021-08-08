@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Acceuil</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link href='https://fonts.googleapis.com/css?family=Crete+Round' rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="conteneur1_index">
+			<h1>DBMS (Data Base Management System) - SGBD (Système de Gestion de Base de Données)</h1>
+			<img src="./img/img_db_0.jpg" alt="DBMS" title="DBMS"/> 
+			<nav>
+				<ul>
+					<li><a href="#">Qu’est-ce qu’une base de données?</a></li>
+					<li><a href="#"> Construire une BD / Notion de modèle</a></li>
+					<li><a href="#"> Construire une BD – Petite synthèse</a></li>
+					<li><a href="#"> Qu’est-ce qu’un SGBD ?</a></li>
+					<li><a href="#"> Qualités des SGBD</a></li>		
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<br/><br/>
+	<br/><br/>
+<section id="sec2">
+	<p><h2>Introduction</h2><br/><br/><iframe width="560" height="315" src="https://www.youtube.com/embed/FR4QIeZaPeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+	<p><h2>1.Qu’est-ce qu’une base de données</h2><br/><br/>
+C'est un ensemble cohérent et structuré d'informations concernant un domaine particulier, interrogeables par requêtes, mémorisées sur un support informatique.
+	<img src="./img/img_db_1.jpg" alt="Data_Base" title="Image Base de Données">
+<br/><br/>
+<h3>1.1	Cohérent et structuré</h3><br/><br/>
+Les données sont caractérisées par des propriétés et des relations (i.e. des liens) entre elles. 
+Ces données concernent un domaine particulier. Les données modélisent une partie du « monde réel ».  
+On retrouve dans le modèle de données, les concepts du domaine.<br/><br/>
+<h3>1.2	Interrogeable par requêtes</h3><br/><br/>
+On doit pouvoir retrouver les données qui satisfont certains critères. 
+On doit par ailleurs pouvoir retrouver la structure des données.<br/><br/>
+1.3	Support informatique<br/><br/>
+Représentation des données et des relations entre les données sous une forme « numérique », interprétable et manipulable par un ordinateur. La Base de Données est une partie de la science informatique.
+Les données sont stockées sur les mémoires secondaires (Disque dur, CDRom, etc.)<br/><br/>
+<h2>2.	Construire une BD / Notion de modèle</h2><br/><br/>
+Construire une base de données sur un domaine c’est avant tout construire un modèle 
+Modèle d’un domaine = représentation abstraite de ce domaine. Abstraction signifie éloignement vis-à-vis des considération matérielles et logicielles.<br/><br/><img src="./img/img_db_3.jpg" alt="Modèle de Data_Base" title="Modèle"><br/><br/>
+<h3>2.1	Pourquoi modéliser ?</h3><br/><br/>
+Pour construire une représentation du domaine qui soit manipulable et interprétable par un ordinateur. La modélisation est une simplification de la réalité. Une modélisation relève toujours d'un point de vue ou d'un cadrage. On ne garde que les éléments pertinents par rapport à ce point de vue, aussi complète soit-elle, une modélisation est nécessairement « limitée ».<br/><br/>
+<h3>2.2	Représenter implique de :</h3><br/><br/>
+	<ul>
+		<li>
+			Choisir les objets, abstraits ou concrets, que l'on va décrire
+		</li>
+		<li>
+			Nommer ces objets pour « pouvoir en parler »
+		</li>
+	</ul>  
+Un modèle est avant tout un outil de communication.<br/><br/>
+<h3>2.3	Définir clairement les termes.</h3><br/><br/>  
+Pourquoi on choisit de décrire ces « objets ».
+Les propriétés importantes de ces objets. Un modèle doit pouvoir se justifier par rapport à des choix effectués par le concepteur, le client, etc.<br/><br/>
+<h2>3.	Construire une BD – Petite synthèse</h2><br/><br/>
+Un modèle est :<br/><br/>
+Une interprétation explicite par son utilisateur de la compréhension d’une situation ou plus exactement de l’idée que cet utilisateur se fait de la situation.
+<ul>
+	<li>Pour simplifier un modèle en informatique est : Une description d’entités et de relations entre ces entités</li>
+	<li>Synonyme : représentation</li>
+</ul>
+<h3>3.1	Modéliser, en quoi cela consiste ?</h3><br/><br/>
+C’est d’une certaine manière élaborer une vue partielle, plus ou moins abstraite de l’existant
+Principe de pertinence : supprimer des détails et ne garder que ce qui est important par rapport à l’objectif de la BDD (Base de données)
+On fait un modèle dans un but précis, et on ne garde dans ce modèle que ce qui est pertinent par rapport à ce but. Un modèle est correct s’il permet de répondre aux questions qu’on se pose.<br/><br/>
+<h3>3.2	Concept de modèle</h3><br/><br/>
+La modélisation en informatique :<br/><br/>  
+C’est le passage du domaine du problème à celui de sa solution informatique.<br/><br/>  
+La difficulté de modéliser : Il est difficile d’appréhender la sémantique du monde réel et de la transformer en signes manipulables par des ordinateurs Système de Gestion des Bases de Données.<br/><br/>
+<h2>4.	Qu’est-ce qu’un SGBD ?</h2><br/><br/>  
+Un SGBD est un ensemble de logiciels qui permet de créer, de gérer et d'interroger efficacement une base de données indépendamment du domaine d'application.<br/><br/>
+Exemples :<br/><br/>  
+Access de Microsoft™<img src="./img/img_db_4.jpg" alt="Access_db" title="Access_db"><br/><br/> 
+<a href="http://www.oracle.com/">Oracle</a><img src="./img/img_db_5.jpg" alt="Oracle_db" title="Oracle_db"><br/><br/> <a href="https://www.mysql.com/fr/">MySQL</a> 
+ /<img src="./img/img_db_6.jpg" alt="SQL_db" title="SQL_db"><br/><br/><a href="https://www.postgresql.org">PostgreSQL</a><img src="./img/img_db_7.jpg" alt="Post_db" title="Post_db"><br/><br/>
+<h3>SGBD – Les 3 couches</h3><br/><br/> 
+Le SGBD se compose de 3 couches :<br/><br/>
+<ul>
+	<li>Le SGF : Système de Gestion de Fichier  
+		Gestion des données sur les mémoire secondaires (disque dur, bande magnétique, etc.)
+	</li>
+	<li>Le SGBD Interne  
+Il comprend le système d'accès aux données. Il est quasiment invisible pour l'utilisateur, depuis les programmes d'application. Il gère les données dans les fichiers. Il s'occupe du placement et de l'assemblage des données. Il gère les liens entre les données et la structure de la base.
+	</li>
+	<li>
+		Le SGBD externe assure :<br/><br/>
+		<ul>
+			<li>
+				L'analyse et l'interprétation des requêtes des utilisateurs. 
+			</li>
+			<li>
+				La mise en forme des données résultats Qualités attendues des SGBD
+			</li>
+		</ul>
+	<img src="./img/img_db_2.jpg" alt="Couche_sgbd" title="les couches du SGBD" />
+<br/><br/>
+<h2>5.	SGBD – Les objectifs</h2><br/><br/>
+Les principaux objectifs des SGBD sont :<br/><br/>
+<ul>
+	<li>Indépendance physique des données</li>
+	<li>Indépendance logique</li>
+	<li>Efficacité des accès aux données</li>
+	<li>Manipulation des données par des non-informaticiens</li>
+	<li>Administration cohérente des données</li>
+	<li>Non redondance des données</li>
+	<li>Cohérence des données</li>
+	<li>Partageabilité des données</li>
+	<li>Sécurité de données</li>
+</ul> 
+Il faut noter que les SGBD, même récents, n'atteignent que partiellement l'ensemble de ses objectifs<br/><br/>
+<h2>5.1	Qualités des SGBD - Indépendance physique</h2><br/><br/>
+<ul>
+	<li>Séparation entre le monde réel et le monde informatique</li>
+	<li>La représentation physique des informations au niveau des mémoires secondaires informatiques doit être indépendante de la représentation des informations dans le monde réel</li>
+	<li>Dans le monde réel, les informations sont organisées d'une certaine manière. </li>
+	<li>Pour des raisons d'efficacité d'accès et de manipulation, les informations ne sont pas organisées sur les mémoires secondaires de la même manière qu'elles sont organisées dans le monde réel.</li>
+</ul>  
+<h3>5.2	Qualités des SGBD - Indépendance logique</h3><br/><br/>
+Toutes les informations n'ont pas la même importance selon l'utilisateur. Tous les utilisateurs n'ont pas les mêmes droits sur les informations.
+<ul>
+	<li>Notion de vue</li><p>Chaque type d'utilisateur à une certaine « vue » des données de la base 
+		Il est important qu'il y ait une indépendance entre cette « vue » propre à un utilisateur ou un groupe d'utilisateur et les données elle-même. <br/><br>C'est ce qu'on nomme l'indépendance logique.</p>
+	<li>Intérêt</li><p>Chaque groupe d'utilisateur de la base a une vue sur les données correspondant à ces besoins. On peut faire évoluer les vues existantes ou créer de nouvelles vues sans modifier la structure des données dans la base et vice versa.</p>
+</ul>  
+<h3>5.3	Qualités des SGBD – Efficacité des accès</h3><br/><br/><img src="./img/img_db_8.jpg" alt="Benefits_db" title="Benefits_db">
+Critère de performance dans l'accès et le stockage des données:<br/><br/>
+<ul>
+	<li>Point de vue « utilisateur » du SGBD</li><p>Les bases de données doivent être « efficaces ». On utilise un SGBD pour gagner du temps. Si une recherche manuelle est plus rapide, le SGBD perd de son intérêt ! Il faut notamment des accès aux mémoires secondaires efficaces </p>
+	<li>Point de vue « programmeur »</li><p>Un SGBD doit pouvoir s'utiliser facilement avec un langage de programmation «classique». Dans de nombreuses applications on peut avoir besoin d'accéder par programme à une base de données par exemple, les langages PHP ou ASP couplés avec une base de données dans la création d'un site Web dynamique.</p>
+</ul>
+<h3>5.4	Qualités des SGBD – Manipulation des données</h3><br/><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nq2wiBH5HjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<ul>
+	<li>Manipulation des données et de la base par des non-informaticiens.</li><p>Les utilisateurs des BDD ne sont pas nécessairement des informaticiens. Il faut donc que le SGBD permette aux usagers d'accéder, de manipuler, de modifier, de mettre à jour les informations de la base facilement, sans une connaissance approfondie de la manière dont la base est « implémentée » sur la machine.</p>
+	<li>Utilisation de langage de requête « simple », non-procéduraux comme QBE ou SQL. </li>
+	<li>Utilisation de requêtes effectuées « graphiquement »</li>
+</ul>
+<h3>5.5	Qualités des SGBD – Administration des données</h3><br/><br/> 
+Deux fonctions essentielles liés à un SGBD :<br/><br/>
+<ul>
+	<li>Définition des structures de stockage et des structures de données </li>
+	<li>Suivi de l'évolutions des données </li>
+</ul> 
+On parle d'administration des données<br/><br/>
+<h3>5.6	Qualités des SGBD – Non-redondance</h3><br/><br/>
+La non-redondance est liée à une administration cohérente des données.  
+Il faut éviter la duplication « physique » des données. C'est-à-dire à la répétition en mémoire des mêmes informations. La redondance d'information entraîne De la perte de mémoire secondaire  La nécessité de faire des mises à jour multiples Des incohérences dans la base de données.<br/><br/>
+<ul><li>La redondance d'information peut entraîner :</li> <p>Des incohérences dans la base et donc des incohérences dans les réponses aux requêtes 
+Des problèmes d'optimisation dans l'accès aux informations</p></ul>
+5.7	Qualités des SGBD – Cohérence<br/><br/> 
+Respects des contraintes de définition des données  
+La vérification de la non-redondance des informations (transparent précédent) permet d'assurer une cohérence « structurelle » de la base.<br/><br/> Les informations ne sont pas dupliquées et la structure de la base respecte certaines règles facilitant son administration. Il s'agit ici de vérifier la cohérence « sémantique » des informations, c'est-à-dire la cohérence de leur valeur. Chaque donnée stockée dans la base est définie par un certain nombre de propriétés elles-mêmes associées à des valeurs. Ces valeurs ont un « domaine de définition », c'est-à-dire qu'elle respecte certaines contraintes. Par exemple: Un âge ne peut pas être un entier négatif.<br/><br/> 
+<h3>5.8	Qualités des SGBD – Partage des données</h3><br/><br/> 
+<ul>
+	<li>« Partageabilité » des données </li>
+	<li>Partage des données simultanément/concurremment</li>
+	<li>Problématique de la cohérence de la base, mise à jour en même temps, etc.</li>
+	<li>Partage des données à des moments différents</li>
+	<li>Optimisation de la place mémoire utilisée</li>
+	<li>Problématique de cohérence des données, de non-duplication.</li>
+</ul>  
+Il est important de savoir que plusieurs applications différentes peuvent modifier les mêmes données. 
+<br/><br/>
+<h3>5.9	Qualités des SGBD – Sécurité des données</h3><br/><br/> 
+Il est important de pouvoir protéger les données. Certaines données peuvent être « sensibles » et doivent n'être accessibles qu'à une certaine catégorie d'utilisateurs. Il faut se prémunir contre les accès non autorisés et/ou mal intentionnés. C'est aussi un moyen de limiter les modifications accidentelles des données par des utilisateurs non avertis.<br/><br/>
+<ul><li>Il est donc nécessaire d'avoir une politique de sécurité 
+Problématique similaire à celle des systèmes d'exploitation 
+Présence de mécanismes pour autoriser, contrôler ou enlever les droits d'accès de n'importe quel usager (en général gérer par le(s) DBA)</li></ul> 
+</p>
+<h2>Conclusion</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UTjlftVPXdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<footer>
+		<h2>Copyright ® Officiel © 2021. Tous droits réservés.</h2>  
+</footer>
+</body>
+</html>
